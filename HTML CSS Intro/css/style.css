@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: #91e1e6;
+    color:  black;
+    font-size: 21px;
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif; 
+}
+
+/* p {
+    color: white;
+} */
+
+h1 {
+    /* font-size: 70px; */
+    color:blue;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.25;
+}
+/* The CSS Box Model */
+/* Margin: empty space around my element.
+, Border: a border/stroke around my element
+  Padding: empty space with background around my element (inside)
+  
+  ALL OF THESE ADD ON TOP OF THE WIDTH OF THE ELEMENT. */
+.box {
+    background-image: url(../img/nature.jpg);
+    width: 300px;
+    margin: 100px;
+
+    /* border-width: 5px;
+    border-color: red;
+    border-style: solid; */
+    border: 5px solid red;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+
+/* a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited { 
+    color: rgb(255, 174, 0);
+}
+
+a:hover {
+    color: grey;
+}
+a:active {
+    color: green;
+} */
+
+.bx {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: red;
+}
+.box3 {
+    background: firebrick;
+}
+.box4 {
+    background: orange;
+}
+.box5 {
+    background: yellow;
+}
+.box6 {
+    background: lime;
+}
+.box7 {
+    background: green;
+}
+.box8 {
+    background: blue;
+}
+.red-box {
+    width: 500px;
+    background: rgba(255,0,0,.5);
+    float: left;
+}
+
+.blue-box {
+ width: 500px;
+ background: blue;
+ color: white;
+ float: left;
+}
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+.container {
+    background: white;
+    width: 70%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
